@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #0F0C22;
+}
+
+.navbar-brand {
+    font-family: 'vidaloka', serif;
+    font-size: 2.8rem;
+}
+
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-top: -95px;
+    height: 100vh;
+    weight: 100vmin;
+    background-color: #0F0C22;
+}
+
+.jumbotron .container {
+    margin-top: 5vh;
+    
+      
+}
+
+.jumbotron p {
+    margin-top: 25%;
+    font-family: 'vidaloka', serif;
+    font-size: 3rem;
+    color: #E9EFC7;
+    font-weight: 500;
+}
+
+.jumbotron .btn-desc {
+    margin-top: 5%;
+}
+
+.jumbotron .btn-desc p {
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 16px;
+    color: rgba(239, 196, 84, 0.71);
+}
+
+.jumbotron .container .row .img1 {
+    display:none;
+}
+
+.jumbotron .container .row .img {
+    display:none;
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        margin-top: -100px;
+        height: 100vh;
+    }
+
+    .jumbotron .container {
+        margin-top: 10%;   
+    }
+
+    .jumbotron p {
+        font-size: 7.5rem;
+        font-family: 'Vidaloka', serif;
+        font-weight: bold;
+        padding-bottom: 0.3em;
+    }
+    .jumbotron .btn-desc {
+        margin-top: unset;
+    }
+    .jumbotron .btn-desc p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        line-height: 16px;
+    }
+
+    .jumbotron .container .row .img {
+        display: unset;
+    }
+
+
+    .jumbotron .container .row .img2 {
+        display: none;
+    }
+}
