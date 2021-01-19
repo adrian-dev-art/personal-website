@@ -1,6 +1,6 @@
+
 *{
     font-family: 'Montserrat',sans-serif;
-    background-color: #0F0C22;
 
 }
 
@@ -17,13 +17,13 @@
 }
 
 .jumbotron{
-    height: 100vh;
+    height: 95vh;
     background-color: #0F0C22;
 }
 
 .name{
     height: 90vh;
-    margin-top: 7vh;
+    margin-top: -5vh;
 }
 
 .name .me{
@@ -39,8 +39,52 @@
     color: #EFC454;
 }
 
+.name .cv-btn{
+    margin-top: 0vh;
+}
+
 .container-fluid{
     background-color: #0F0C22;
+}
+
+.about{
+    margin-top: -5vh;
+}
+
+.title-about{
+    margin-top: 5vh!important;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #f8d0a3;
+
+}
+
+
+
+.header{
+    font-family: 'Vidaloka',serif;
+    font-weight: bold;
+    color:#EFC454;
+    letter-spacing: 2px;
+    padding: 0.5em;
+
+    
+}
+
+.desc-me{
+    font-weight: 300;
+    style:normal;
+    color:#E9EFC7;
+    text-align: start;
+    border: 10px solid ;
+    border-color: transparent;
+    
+}
+
+.desc-me span{
+    font-weight: bold;
 }
 
 @media (max-width: 575.98px) { 
@@ -52,17 +96,33 @@
         margin-top: -22vh;
         height: 65vh;
     }
- }
+
+    .desc-about{
+       
+    }
+
+    .header{
+        font-size: 1.3rem;
+        text-align: start;
+        border-bottom: 5px solid;
+        margin-top: -25vh;
+    }
+
+    .desc-me{
+        font-size: 0.6rem;
+        text-align: end;
+        margin-top: -37vmax;
+    }
+
+}
 @media (min-width: 992px) { 
 
-    .jumbotron{
-        
-    }
+   
 
     .name .me{
         margin-top: 4vh;
         margin-left: 50vw;
-        font-size: 6rem;
+        font-size: 7rem;
         font-family: 'Vidaloka',serif;
         font-weight: bold;
         color: #E9EFC7;
@@ -86,14 +146,32 @@
     .name{
 
         background-image: url(img/bg-home.png);
-        background-size: 50rem;
+        background-size: 60vw;
         background-repeat: no-repeat;
-        margin-top: 0vh;
-        height: 90vh;
+        margin-top: 5vh;
+        margin-left: -5vh;
+        height: 80vh;
     }
 
     .img3{
         display: none;
+    }
+
+    .title-about{
+        font-size:3rem;
+        
+    }
+
+    .header{
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        text-align: end;
+        border-right: 5px solid;
+        border-width: 4px solid;
+    }
+
+    .desc-me{
+        font-size: 1.5rem;
     }
 
 
