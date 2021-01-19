@@ -1,43 +1,101 @@
-*,html {
+*{
+    font-family: 'Montserrat',sans-serif;
     background-color: #0F0C22;
+
 }
 
 .navbar{
-    
+    background-color: #0F0C22;
 }
 
-.navbar-brand {
-    font-size: 3rem;
-    font-family: 'Vidaloka', serif;
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Vidaloka',serif;
+    font-weight: bold;
+    color: #E9EFC7;
+    letter-spacing: 3px;
 }
 
-.navbar-nav{
-    font-size: 1.3rem;
-    font-family:'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-.home{
+.jumbotron{
     height: 100vh;
     background-color: #0F0C22;
-    margin-top: 10vh;
 }
 
 .name{
-    font-family: 'Vidaloka', serif;
-    font-weight: bold;
-    color: #efeec7;
+    height: 90vh;
+    margin-top: 7vh;
+}
+
+.name .me{
     font-size: 2.5rem;
-    margin-top: 20px;
+    font-family: 'Vidaloka',serif;
+    font-weight: bold;
+    color: #E9EFC7;
 }
 
-.btn-desc{
-    margin-top: 45vh;
-}
-
-.btn-desc p {
-    font-family:'Montserrat',sans-serif;
-    font-size: 1.3rem;
-    font-weight:500;
+.name .desc{
+    font-size: 1rem;
+    font-weight: 400;
     color: #EFC454;
 }
+
+.container-fluid{
+    background-color: #0F0C22;
+}
+
+@media (max-width: 575.98px) { 
+    .img1{
+        display: none;
+    }
+    .img3{
+        margin-left: 15vw;
+        margin-top: -22vh;
+        height: 65vh;
+    }
+ }
+@media (min-width: 992px) { 
+
+    .jumbotron{
+        
+    }
+
+    .name .me{
+        margin-top: 4vh;
+        margin-left: 50vw;
+        font-size: 6rem;
+        font-family: 'Vidaloka',serif;
+        font-weight: bold;
+        color: #E9EFC7;
+        letter-spacing: 6px;
+    }
+
+    .name .cv-btn{
+        margin-top: 0vh;
+        margin-left: 50vw;
+
+    }
+
+    .name .desc{
+        margin-top: -1vh;      
+        margin-left: 50vw;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #EFC454;
+    }
+
+    .name{
+
+        background-image: url(img/bg-home.png);
+        background-size: 50rem;
+        background-repeat: no-repeat;
+        margin-top: 0vh;
+        height: 90vh;
+    }
+
+    .img3{
+        display: none;
+    }
+
+
+ }
+
